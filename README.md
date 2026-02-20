@@ -1,5 +1,5 @@
 # RLASSO-IV
-An R function to implement an R-learner with Instrumental Variable for heterogeneous effect estimation.
+An R function to implement R-learner with Instrumental Variable for heterogeneous effect estimation.
 ## Details
 **Function**: RLASSO-IV  
 **Type**: R Function  
