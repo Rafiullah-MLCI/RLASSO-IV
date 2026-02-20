@@ -32,5 +32,5 @@ y <- tau_true*t + x[,3] + u + rnorm(n)                  # Outcome
 rlasso_iv_fit <- rlasso_iv(x = x, z = z, w = w, y = y)
 
 # Predict treatment effects
-tau_hat <- predict(rlasso_iv_fit, newx = x)
-print(rlasso_svm_pred)
+rlasso_iv_pred <- predict(rlasso_iv_fit, newx = x)
+print(rlasso_iv_pred)
